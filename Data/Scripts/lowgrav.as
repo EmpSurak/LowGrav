@@ -1,11 +1,23 @@
+float grav = -4;
+
 void Init(string level_name){
-    physics.gravity_vector.y = -4;
+    SetGravity();
 }
 
-void Update() {}
+void Update(){}
 
 bool HasFocus(){
     return false;
 }
 
-void DrawGUI() {}
+void DrawGUI(){}
+
+void Menu(){
+    if(ImGui_SliderFloat("Gravity", grav, -50, 10)){
+        SetGravity();
+    }
+}
+
+void SetGravity(){
+    physics.gravity_vector.y = grav;
+}
