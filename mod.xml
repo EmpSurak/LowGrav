@@ -1,0 +1,22 @@
+<? xml version="1.0" ?>
+<Mod>
+    <Id>com-surak-lowgrav</Id> 
+    <Name>LowGrav!</Name> 
+
+    <Category>Script</Category>
+
+    <Thumbnail>Data/Images/lowgrav/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/lowgrav/thumb.jpg</PreviewImage>
+
+    <Description>Reduce the gravity!</Description>
+    <Version>0.0.1</Version>
+    <Author>Surak</Author>
+    <Tag>Scripting</Tag>
+    <Tag>Unreal Tournament</Tag>
+    <Tag>Mutator</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+
+    <LevelHookFile>Data/Scripts/lowgrav.as</LevelHookFile>
+</Mod>
